@@ -330,8 +330,7 @@ footer {
 .column_1 {
     float: left;
     width: 50%;
-    padding: 1.6%;
-    padding-top: 3%;
+   
     height: 450px;
     background-color: #f2f2f2;
 }
@@ -339,7 +338,9 @@ footer {
 .column_2 {
     float: left;
     width: 50%;
-    padding: 1.6%0px;
+   
+   
+    
     height: 450px;
     background-color: #4d4d4d;
 }
@@ -351,13 +352,14 @@ footer {
     /*By leaving this blank we are allowing the footer (coverevd lower down) to be displayed -removing it makde the footer overwrite a column.*/
     display: table;
     clear: both;
+   
 }
 
 /***CONTACT FORM***/
 /*Button used to pin the contact form -fixed at the bottom of the page*/
 .Pop_Up_Button {
     position: fixed;
-    bottom: 1.75;
+    bottom: 1.75vw;
     right: 1.75vw;
     width: 25vw;
     background-color: white;
